@@ -1,24 +1,29 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+|| THP PARIS SESSION 5 ||
+|| SEM-04 - DATA_BASE  ||
+|| PROJET 1 > DOCTEUR  ||
+----------------------------------------------------------------------
+**MEMBRES DE LA TEAM**
+                                                                      
+Marion Velard => @Marion												  
+Madianh Heg => @Madianhh33												  
+Thibault Douge => @Thibault											  
+Julia Kozlowski => @Julia												  
+															
+***********************************************************************
+**LE PROGRAMME**	
 
-Things you may want to cover:
 
-* Ruby version
+Pour ce projet, j'ai créé 3 models > Docteur
+								   > Patient
+								   > Appointement
 
-* System dependencies
+Dans leur fichier respectifs, se trouvent leurs liaisons.
 
-* Configuration
+La création des trois tableaux s'effectue au sein d'une même migration:
 
-* Database creation
+> /db/migrate/CreateAppoitments
 
-* Database initialization
+Pour remplir la base de données:
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+> rails db:seed
